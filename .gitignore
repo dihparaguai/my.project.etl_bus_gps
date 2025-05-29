@@ -6,6 +6,13 @@ data/bronze/*
 !data/gold/*
 !data/gold/.gitkeep
 
+data/temp/bronze/*
+!data/temp/bronze/.gitkeep
+!data/temp/silver/*
+!data/temp/silver/.gitkeep
+!data/temp/gold/*
+!data/temp/gold/.gitkeep
+
 ### GCP ###
 gcp_key.json
 
