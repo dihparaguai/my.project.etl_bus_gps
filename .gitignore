@@ -1,10 +1,10 @@
 ### data ###
-data/raw/*
-!data/raw/.gitkeep
-!data/clean/*
-!data/clean/.gitkeep
-!data/processed/*
-!data/processed/.gitkeep
+data/bronze/*
+!data/bronze/.gitkeep
+!data/silver/*
+!data/silver/.gitkeep
+!data/gold/*
+!data/gold/.gitkeep
 
 ### GCP ###
 gcp_key.json
