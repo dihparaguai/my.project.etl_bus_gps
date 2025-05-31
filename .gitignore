@@ -1,16 +1,16 @@
 ### data ###
 data/bronze/*
 !data/bronze/.gitkeep
-!data/silver/*
+data/silver/*
 !data/silver/.gitkeep
-!data/gold/*
+data/gold/*
 !data/gold/.gitkeep
 
 data/temp/bronze/*
 !data/temp/bronze/.gitkeep
-!data/temp/silver/*
+data/temp/silver/*
 !data/temp/silver/.gitkeep
-!data/temp/gold/*
+data/temp/gold/*
 !data/temp/gold/.gitkeep
 
 ### GCP ###
