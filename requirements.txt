@@ -30,6 +30,7 @@ bleach==6.2.0
 blinker==1.9.0
 cachelib==0.9.0
 cachetools==5.5.2
+category_encoders==2.8.1
 certifi==2025.1.31
 cffi==1.17.1
 charset-normalizer==3.4.1
@@ -92,6 +93,7 @@ itsdangerous==2.2.0
 jedi==0.19.2
 Jinja2==3.1.5
 jmespath==0.10.0
+joblib==1.5.1
 json5==0.12.0
 jsonpointer==3.0.0
 jsonschema==4.23.0
@@ -147,6 +149,7 @@ pandas==2.2.3
 pandocfilters==1.5.1
 parso==0.8.4
 pathspec==0.12.1
+patsy==1.0.1
 pendulum==3.0.0
 pexpect==4.9.0
 platformdirs==4.3.8
@@ -183,6 +186,8 @@ rich==13.9.4
 rich-argparse==1.6.0
 rpds-py==0.22.3
 rsa==4.9.1
+scikit-learn==1.7.0
+scipy==1.15.3
 Send2Trash==1.8.3
 setproctitle==1.3.4
 six==1.17.0
@@ -193,11 +198,13 @@ SQLAlchemy-JSONField==1.0.2
 SQLAlchemy-Utils==0.41.2
 sqlparse==0.5.3
 stack-data==0.6.3
+statsmodels==0.14.4
 tabulate==0.9.0
 tenacity==9.0.0
 termcolor==2.5.0
 terminado==0.18.1
 text-unidecode==1.3
+threadpoolctl==3.6.0
 time-machine==2.16.0
 tinycss2==1.4.0
 tomli==2.2.1
