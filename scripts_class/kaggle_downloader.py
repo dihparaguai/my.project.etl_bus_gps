@@ -7,8 +7,8 @@ class KaggleDownloader:
         self.kaggle_dataset = kaggle_dataset
 
     def download_kaggle_dataset(self, path_bronze):
+        print('Iniciando download dos arquivos do Kaggle')
         path_origin = kagglehub.dataset_download(os.path.join(self.kaggle_owner, self.kaggle_dataset)) # Baixa os arquivos de GPS do Kaggle
-        
         os.system(f'mkdir -p {path_bronze}') # Cria a para que conterá os arquivos originais baixados
 
         # Copia todos os arquivos da pasta do Kaggle para data_raw
