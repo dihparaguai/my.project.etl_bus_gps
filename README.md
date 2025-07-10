@@ -1,3 +1,3 @@
 # Objetivo:
 
-Extrair dados de GPS de linhas de transporte publico do Bando de Dados MYSQL, disponibilizando-os em pastas por linhas e arquivos por dia
+Extrair dados de GPS das linhas de transporte público a partir dos arquivos CSV brutos, realizar limpeza e transformações necessárias, e disponibilizar os dados tratados em cloud, banco de dados SQL e arquivos CSV limpos.
