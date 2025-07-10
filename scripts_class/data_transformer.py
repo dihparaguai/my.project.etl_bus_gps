@@ -5,7 +5,7 @@ class DataTransformer():
         self.df = df
 
     def clear_and_filter_data(self):
-        print('Iniciando limpeza e filtro do DataFrame')
+        print('-> Iniciando limpeza e filtro do DataFrame.')
 
         df_list_chunks = []  # Lista vazia para guardar os pedaços do dataset filtrado e limpo
 
@@ -18,7 +18,7 @@ class DataTransformer():
             df_list_chunks.append(df_temp)
             
         self.df = pd.concat(df_list_chunks, ignore_index=True) # Concatena todos os pedaços em um único DataFrame   
-        print(f'Dados do DataFrame foram filtrados filtrados.') 
+        print(f'Dados do DataFrame foram filtrados e limpos.') 
 
     def __fix_ScheduledArrivalTime(self, hora_str):
         hora = int(hora_str[:2])
